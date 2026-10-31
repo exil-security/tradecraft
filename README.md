@@ -1,4 +1,4 @@
-# OSEP Tradecraft
+# Tradecraft
 
 ## Install
 
@@ -15,7 +15,7 @@ usage: craft [-h] -i INPUT -o OUTPUT [-s SERVER] [-c _CLASS] [-m METHOD] [-a ARG
              [--applocker [{msbuild,workflow_compiler,installutil}]] [--applocker-path PATH] [--platform {windows,linux}] [--arch {x32,x64,any}] [-e {None,AES,XOR,ROT}] [--hide] [--doc {shell,wmi,wscript}] [-v] [-q]
              {run,inject,hollow}
 
-Tradcrafts automation for Offensive Security PEN-300 (OSEP)
+Tradcrafts automation for Evasion
 
 positional arguments:
   {run,inject,hollow}       shellcode execution method (default: run)
