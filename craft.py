@@ -15,7 +15,7 @@ def argparser():
     input_ext = ['', '.raw', '.bin', '.txt', '.exe', '.dll']
     output_ext = ['', '.elf', '.exe', '.dll', '.ps1', '.ps'] + containers_ext
 
-    parser = argparse.ArgumentParser(description='Tradcrafts automation for Offensive Security PEN-300 (OSEP)', formatter_class=ArgumentFormatter)
+    parser = argparse.ArgumentParser(description='Tradcrafts automation for Evasion', formatter_class=ArgumentFormatter)
         
     parser.add_argument('-i', '--input', required=True, help=f'input file format: ({', '.join(input_ext[1:])})')
     parser.add_argument('-o', '--output', required=True, help=f'output file format: ({', '.join(output_ext[1:])})')
