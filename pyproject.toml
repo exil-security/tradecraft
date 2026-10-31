@@ -14,7 +14,7 @@ requires-python = ">=3.8"
 authors = [
   { name="Exil", email="yassine.settai@gmail.com" }
 ]
-description = "Tradecraft for Offensive Security PEN-300 (OSEP)"
+description = "Tradecraft for Evasion"
 readme = "README.md"
 license = "MIT"
 
